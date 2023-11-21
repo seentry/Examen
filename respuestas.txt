@@ -3,3 +3,4 @@
 3. awk '{print $5}' Alumnos.txt | grep -ic "SI" Alumnos.txt >> si.txt
 4. mkdir si
 5. mv si.txt /examen/si
+6. cat Alumnos.txt | sed 's/ /./g' | awk '{print $1, $4}' | sed 's/ /-/g'
