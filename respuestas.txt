@@ -1,1 +1,2 @@
 1. mkdir examen
+2. cd examen
