@@ -4,6 +4,7 @@
 4. mkdir si
 5. mv si.txt /examen/si
 6. cat Alumnos.txt | sed 's/ /./g' | awk '{print $1, $4}' | sed 's/ /-/g'
-7. cat Alumnos.txt | awk '{print $2}' | grep -c "Sevilla"
+7. cat Alumnos.txt | awk '{print $2}' | grep -c "Gonzalez"
 8. cat Alumnos.txt | sed 's/Vicente/Pepe/g'
 9.  cat Alumnos.txt | grep [1-17]
+10. cat Alumnos.txt | grep -s "J" | awk '{print $1, $2}'
