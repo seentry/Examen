@@ -1,3 +1,4 @@
 1. mkdir examen
 2. cd examen
 3. awk '{print $5}' Alumnos.txt | grep -ic "SI" Alumnos.txt
+4. mkdir si
