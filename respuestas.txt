@@ -8,3 +8,4 @@
 8. cat Alumnos.txt | sed 's/Vicente/Pepe/g'
 9.  cat Alumnos.txt | grep [1-17]
 10. cat Alumnos.txt | grep -s "J" | awk '{print $1, $2}'
+11. no se sabe :(
