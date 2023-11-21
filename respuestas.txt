@@ -1,4 +1,5 @@
 1. mkdir examen
 2. cd examen
-3. awk '{print $5}' Alumnos.txt | grep -ic "SI" Alumnos.txt
+3. awk '{print $5}' Alumnos.txt | grep -ic "SI" Alumnos.txt >> si.txt
 4. mkdir si
+5. mv si.txt /examen/si
